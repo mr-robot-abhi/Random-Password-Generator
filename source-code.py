@@ -5,7 +5,7 @@ from tkinter.font import Font
 
 def generate_password():
   password=[]
-  for i in range(2):
+  for i in range(6):
     alpha=random.choice(string.ascii_letters)
     symbol=random.choice(string.punctuation)
     numbers=random.choice(string.digits)
