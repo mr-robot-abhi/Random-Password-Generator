@@ -16,7 +16,7 @@ def generate_password():
   lbl.config(text=y)
 
 root=Tk()
-root.geometry("250x200")
+root.geometry("400x400")
 btn=Button(root,text="Generate Password",command=generate_password)
 btn.place(relx=0.5, rely=0.2, anchor=N)
 myFont = Font(family="Times New Roman", size=12)
